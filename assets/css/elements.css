@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -15,7 +16,12 @@ body {
     line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Monstserrat', sans-serif;
 }
 
@@ -78,13 +84,15 @@ table caption {
     margin-bottom: 1rem;
 }
 
-table td, table th {
+table td,
+table th {
     white-space: nowrap;
     padding: 1rem;
     text-align: left;
     border: 0.1rem solid var(--light-gray-color);
 }
 
-tfoot td, table th {
+tfoot td,
+table th {
     background: var(--light-gray-color);
 }
